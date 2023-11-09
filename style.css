@@ -10,4 +10,49 @@
   --Dark-grayish-blue: hsl(219, 12%, 42%);
   --Very-dark-blue: hsl(224, 21%, 14%);
 }
-font-family: "Plus Jakarta Sans", sans-serif;
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: var(--Dark-grayish-blue);
+  font-size: 16px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.notif_title {
+  color: var(--Very-dark-blue);
+  font-weight: 800;
+  font-size: 20px;
+}
+.number_box {
+  background-color: var(--Blue);
+  color: var(--White);
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topleft__box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+strong {
+  color: var(--Very-dark-blue);
+}
+.gray_bold {
+  color: var(--Dark-grayish-blue);
+}
+.blue_bold {
+  color: var(--Blue);
+}
+.middle_box {
+  border: 1px solid var(--Light-grayish-blue-2);
+}
+.time {
+  color: var(--Grayish-blue);
+}
