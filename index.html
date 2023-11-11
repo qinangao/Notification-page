@@ -19,9 +19,11 @@
     <div class="header">
       <div class="topleft__box">
         <p class="notif_title">Notifications</p>
-        <div class="number_box">3</div>
+        <div class="number_box" id="notif_number">3</div>
       </div>
-      <div class="topright__box hover">Mark all as read</div>
+      <div class="topright__box hover" id="read_botton" onclick="handleClick()">
+        Mark all as read
+      </div>
     </div>
     <div class="main">
       <div class="notif_box new">
@@ -35,8 +37,9 @@
             <strong class="name"> Mark Webber</strong> reacted to your recent
             post
             <strong class="gray_bold reaction hover"
-              >My first tournament today! </strong
-            ><span class="reddot"></span>
+              >My first tournament today!
+            </strong>
+            <span class="reddot"></span>
           </p>
 
           <p class="time">1m ago</p>
@@ -50,9 +53,8 @@
         />
         <div class="notbox">
           <p>
-            <strong class="name hover">Angela Gray</strong> followed you<span
-              class="reddot"
-            ></span>
+            <strong class="name hover">Angela Gray</strong> followed you
+            <span class="reddot"></span>
           </p>
 
           <p class="time">5m ago</p>
@@ -67,8 +69,8 @@
         <div class="notbox">
           <p>
             <strong class="name">Jacob Thompson</strong> has joined your group
-            <strong class="blue_bold reaction hover">Chess Club</strong
-            ><span class="reddot"></span>
+            <strong class="blue_bold reaction hover">Chess Club</strong>
+            <span class="reddot"></span>
           </p>
           <p class="time">1 day ago</p>
         </div>
@@ -136,18 +138,19 @@
         <div class="notbox">
           <p>
             <strong class="name">Anna Kim</strong> left the group
-            <strong class="blue_bold reaction">Chess Club</strong>
+            <strong class="gray_bold reaction">Chess Club</strong>
           </p>
           <p class="time">2 weeks ago</p>
         </div>
       </div>
     </div>
 
-    <!-- <div class="attribution">
+    <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div> -->
+      >. Coded by <a href="https://github.com/qinangao">Qinan Gao</a>.
+    </div>
+    <script src="./index.js"></script>
   </body>
 </html>
