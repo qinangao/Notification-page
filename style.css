@@ -23,6 +23,9 @@ body {
   color: var(--Dark-grayish-blue);
   font-size: 14px;
   padding: 8px;
+  max-width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
 }
 .topright__box {
   font-size: 15px;
@@ -35,6 +38,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 0 5px 0;
 }
 .notif_title {
   color: var(--Very-dark-blue);
@@ -114,4 +118,26 @@ p {
 .middle_box:hover {
   background-color: var(--Light-grayish-blue-1);
   cursor: pointer;
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 50px;
+  color: var(--Very-dark-blue);
+}
+.attribution a {
+  text-decoration: none;
+  color: var(--Very-dark-blue);
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+  .topright__box {
+    font-size: 18px;
+  }
+  .notif_title {
+    font-size: 25px;
+  }
 }
